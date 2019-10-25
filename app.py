@@ -15,7 +15,8 @@ def intro():
     return render_template(
         "introduction.html",
         
-        the_title="NumberWang",
+        the_title="Number",
     )
 
-    app.run(debug=True)
+app.secret_key = "bigrb40953452=f___D_ndjf29jf239j50945fgjfj23j-ff "
+app.run(debug=True)
